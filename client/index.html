@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
-<div class="container">
+<div class="container" ng-controller="MyController">
 
     <div class="page-header">
         <h1>Web Example</h1>
@@ -21,12 +21,15 @@
             What is your favorite color?
         </div>
         <div class="col-md-3">
-            <form class="form-inline" method="post" action="">
-                <input type="text" class="form-control" name="color" placeholder="Enter a color">
-                <button class="btn btn-primary">Submit</button>
+            <form class="form-inline" ng-submit="postData()">
+                <input type="text" class="form-control" ng-model="color"
+                       placeholder="Enter a color">
+                <input type="submit" class="span1 btn btn-primary" value="Submit"
+                       ng-disabled="!color">
             </form>
         </div>
-        <div class="col-md-3" id="id_post_result">
+        <div class="col-md-3">
+            {{ message }}
         </div>
     </div>
 
@@ -41,20 +44,24 @@
             What colors do people like?
         </div>
         <div class="col-md-3">
-            <button class="btn btn-primary" id="id_get_data">Get colors</button>
+            <button class="btn btn-primary" ng-click="getData()">Get colors</button>
         </div>
     </div>
     <div class="spacer"></div>
     <div class="row">
         <div class="col-sm-12 col-md-6">
-            <table id="id_results" class="table">
+            <table class="table">
+                <tr ng-repeat="person in people">
+                    <td>{{ person.name }}</td>
+                    <td>{{ person.color }}</td>
+                </tr>
             </table>
         </div>
     </div>
 </div>
 <script src="lib/jquery/dist/jquery.min.js"></script>
-<script src="lib/jquery.serializeJSON/jquery.serializejson.min.js"></script>
 <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="lib/angular/angular.min.js"></script>
 <script src="js/base.js"></script>
 </body>
 </html>
