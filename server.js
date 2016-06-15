@@ -138,14 +138,14 @@ var questions = [{
         value: 'Cleveland Cavaliers'
     }]
 }, {
-    question: '7. ?',
+    question: '7. Which team never won a championship?',
     correctAnswer: 4,
     answers: [{
         id: 1,
-        value: ''
+        value: 'Detroit Pistons'
     }, {
         id: 2,
-        value: ''
+        value: 'Wasington Wizards'
     }, {
         id: 3,
         value: ''
