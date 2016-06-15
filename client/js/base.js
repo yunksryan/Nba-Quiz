@@ -10,11 +10,11 @@ function MyController($scope, $http) {
 
     $scope.postData = function() {
         $http.post('/api/v1/postData', {
-            color: $scope.color
+            answers: answers
         }).then(function(response) {
             $scope.message = response.data.message;
         });
-        $scope.color = '';
+
     };
 
     $scope.getData = function() {
@@ -36,6 +36,7 @@ function MyController($scope, $http) {
         if (questionIndex == $scope.questions.length) {
             $scope.done = true;
             console.log('You have finished!');
+           $scope.postData();
             questionIndex = 0;
         }
     };
