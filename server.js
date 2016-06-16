@@ -237,3 +237,6 @@ server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() 
     var addr = server.address();
     console.log("Server listening at", addr.address + ":" + addr.port);
 });
+
+// if you made changes, first do "git status" then "git diff" then "git add ." After do git commit -m ""
+// right after do "git push orgin master"

@@ -40,10 +40,22 @@ angular.module('app', [
             $scope.questions = response.data;
 
             $scope.currentQuestion = $scope.questions[0];
-
+ $scope.currentImage = questionImages[questionIndex];
         });
     };
-
+var questionImages = [
+'1995-1996.jpeg',
+'50-40-90 club.png',
+'Kobes last game.gif',
+'wilt100ptgame.jpg',
+'images.jpeg',
+'teams.jpg',
+'teams.jpg',
+'hall of fame.jpeg',
+'gsw team.jpg',
+'gs warrior.jpg',
+    ];
+ $scope.currentImage = "";
     $scope.answerQuestion = function(answerValue) {
         console.log('answerQuestion: ' + answerValue);
         answers.push(answerValue);
@@ -51,6 +63,7 @@ angular.module('app', [
         console.log('questionIndex: ' + questionIndex);
         console.log('currentQuestion: ' + JSON.stringify($scope.questions[questionIndex]));
         $scope.currentQuestion = $scope.questions[questionIndex];
+        $scope.currentImage = questionImages[questionIndex];
         if (questionIndex == $scope.questions.length) {
             $scope.done = true;
             console.log('You have finished!');

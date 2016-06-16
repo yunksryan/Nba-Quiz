@@ -4,8 +4,9 @@
         <h1>NBA Quiz</h1>
         
         <div ng-hide= "!done">{{ message }}</div>
-    <img src='/img/1995-1996.jpeg'> 
-    <img src='/img/50-40-90 club.png'>
+    <img ng-hide= "!currentImage" 
+    ng-src='/img/{{ currentImage }}'> 
+   
         
 
     <div class="row">
