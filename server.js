@@ -167,7 +167,7 @@ var questions = [{
         value: 'Shaquille O Neal'
     }, {
         id: 3,
-        value: 'Paul Pierce'
+        value: 'Kobe Bryant'
     }, {
         id: 4,
         value: 'Larry Bird'

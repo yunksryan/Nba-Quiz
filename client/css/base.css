@@ -3,7 +3,6 @@ body {
     font-family: 'Indie Flower', serif;
     font-size: 30px;
     background-color: #8c7373
-    
 }
 
 .spacer {
@@ -15,9 +14,7 @@ body {
     color: #ccffcc;
     background-color: #b3b3b3
 }
-img{ max-height: 250px;
-    
+
+img {
+    max-height: 250px;
 }
-
-
-
