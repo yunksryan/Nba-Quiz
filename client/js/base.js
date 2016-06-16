@@ -36,6 +36,8 @@ angular.module('app', [
     };
 
     $scope.getData = function() {
+        $scope.done = false;
+        answers = [];
         $http.get('/api/v1/getData').then(function(response) {
             $scope.questions = response.data;
 
