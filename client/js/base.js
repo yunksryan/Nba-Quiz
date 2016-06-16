@@ -41,7 +41,7 @@ angular.module('app', [
 
             $scope.currentQuestion = $scope.questions[0];
 
-        })
+        });
     };
 
     $scope.answerQuestion = function(answerValue) {
