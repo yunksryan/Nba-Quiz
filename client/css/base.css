@@ -6,11 +6,11 @@ font-family: 'Indie Flower', serif;
 }
 
 .spacer {
-    height: 30px;
+    height: 35px;
 }
 
 .clickable:hover {
     cursor: pointer;
-    color: #ffffff;
-    background-color: #001100
+    color: #ccffcc;
+    background-color: #b3b3b3
 }

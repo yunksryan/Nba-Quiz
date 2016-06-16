@@ -145,73 +145,73 @@ var questions = [{
         value: 'Detroit Pistons'
     }, {
         id: 2,
-        value: 'Wasington Wizards'
+        value: 'Washington Wizards'
     }, {
         id: 3,
-        value: ''
+        value: 'Dallas Mavericks'
     }, {
         id: 4,
-        value: ''
+        value: 'Cleveland Cavaliers'
     }, {
         id: 5,
-        value: ''
+        value: 'Milwaukee Bucks'
     }]
 }, {
-    question: '8. ?',
+    question: '8. Who is NOT in the Basketball Hall of fame?',
     correctAnswer: 3,
     answers: [{
         id: 1,
-        value: ''
+        value: 'Allen Iverson'
     }, {
         id: 2,
-        value: ''
+        value: 'Shaquille O Neal'
     }, {
         id: 3,
-        value: ''
+        value: 'Paul Pierce'
     }, {
         id: 4,
-        value: ''
+        value: 'Larry Bird'
     }, {
         id: 5,
-        value: ''
+        value: 'Yao Ming'
     }]
 }, {
-    question: '9. ?',
+    question: '9. Who on the GSW team will get a ring no matter if they lose or win the championship?',
     correctAnswer: 1,
     answers: [{
         id: 1,
-        value: ''
+        value: 'Anderson Varejao'
     }, {
         id: 2,
-        value: ''
+        value: 'Stephen Curry'
     }, {
         id: 3,
-        value: ''
+        value: 'Klay Thompson'
     }, {
         id: 4,
-        value: ''
+        value: 'Draymond Green'
     }, {
         id: 5,
-        value: ''
+        value: 'Andre Iguodala'
     }]
 }, {
-    question: '10. ?',
+    question: '10. Who are the "Splash Brothers"?',
     correctAnswer: 5,
     answers: [{
         id: 1,
-        value: ''
+        value: 'Draymond and Curry'
     }, {
         id: 2,
-        value: ''
+        value: 'Curry and Iguodala'
     }, {
         id: 3,
-        value: ''
+        value: 'Iguodala and Draymond'
     }, {
         id: 4,
-        value: ''
+        value: 'Thompson and Draymond'
     }, {
         id: 5,
-        value: ''
+        value: 'Curry and Thompson'
     }]
 }];
 // API Routes
