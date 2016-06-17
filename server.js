@@ -62,7 +62,7 @@ var questions = [{
         value: 'Lebron James 2011 - 2012'
     }]
 }, {
-    question: '3. How many points did Kobe Bryant score on his last game before he retired?',
+    question: '3. How many points did Kobe Bryant score in his last game before he retired?',
     correctAnswer: 3,
     answers: [{
         id: 1,
@@ -81,7 +81,7 @@ var questions = [{
         value: '61'
     }]
 }, {
-    question: '4. Who made the most points (100) in one nba game?',
+    question: '4. Who made the most points (100) in one NBA game?',
     correctAnswer: 1,
     answers: [{
         id: 1,
@@ -157,7 +157,7 @@ var questions = [{
         value: 'Milwaukee Bucks'
     }]
 }, {
-    question: '8. Who is NOT in the Basketball Hall of fame?',
+    question: '8. Who is NOT in the Basketball Hall of Fame?',
     correctAnswer: 3,
     answers: [{
         id: 1,
