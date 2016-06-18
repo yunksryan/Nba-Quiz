@@ -47,11 +47,11 @@ angular.module('app', [
         });
     };
     var questionImages = [
-        '1995-1996.jpeg',
+        'bulls 1995-1996.jpeg',
         '50-40-90 club.png',
-        'Kobes last game.gif',
+        'kobe meme.jpg',
         'wilt100ptgame.jpg',
-        'images.jpeg',
+        '30-23.jpg',
         'teams.jpg',
         'teams.jpg',
         'hall of fame.jpeg',
