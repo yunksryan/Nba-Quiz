@@ -54,9 +54,9 @@ angular.module('app', [
         '30-23.jpg',
         'teams.jpg',
         'teams.jpg',
-        'hall of fame.jpeg',
+        'kobe.jpeg',
         'gsw team.jpg',
-        'gs warrior.jpg',
+        'splash.jpg',
     ];
     $scope.currentImage = "";
     $scope.answerQuestion = function(answerValue) {

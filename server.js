@@ -43,23 +43,23 @@ var questions = [{
         value: 'Bulls 1998 - 1999'
     }]
 }, {
-    question: '2. Who did not make it to the 50% fg - 40% 3pts - 90% ft club?',
+    question: '2. Who is not in the 50% fg - 40% 3pts - 90% ft club?',
     correctAnswer: 5,
     answers: [{
         id: 1,
-        value: 'Stephen Curry 2015 - 2016'
+        value: 'Stephen Curry'
     }, {
         id: 2,
-        value: 'Steve Nash 2007 - 2008'
+        value: 'Steve Nash'
     }, {
         id: 3,
-        value: 'Kevin Durant 2012 - 2013'
+        value: 'Kevin Durant'
     }, {
         id: 4,
-        value: 'Larry Bird 1986 - 1987'
+        value: 'Larry Bird'
     }, {
         id: 5,
-        value: 'Lebron James 2011 - 2012'
+        value: 'Lebron James'
     }]
 }, {
     question: '3. How many points did Kobe Bryant score in his last game before he retired?',
