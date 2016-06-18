@@ -100,23 +100,23 @@ var questions = [{
         value: 'Michael Jordan'
     }]
 }, {
-    question: '5. Who made the most treys in a season and how many?',
+    question: '5. Who has the record for the most treys made in a season?',
     correctAnswer: 2,
     answers: [{
         id: 1,
-        value: 'Stephen Curry, 286'
+        value: 'Chris Bosh'
     }, {
         id: 2,
-        value: 'Stephen Curry, 402'
+        value: 'Stephen Curry'
     }, {
         id: 3,
-        value: 'Klay Thompson, 276'
+        value: 'Klay Thompson'
     }, {
         id: 4,
-        value: 'Ray Allen, 405'
+        value: 'Ray Allen'
     }, {
         id: 5,
-        value: 'Michael Jordan, 406'
+        value: 'Michael Jordan'
     }]
 }, {
     question: '6. Which team has the most championships (14)?',
